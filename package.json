@@ -1,0 +1,16 @@
+{
+  "name": "api-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:api": "cypress run --spec 'cypress/integration/api/**/*.cy.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.12.0",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
